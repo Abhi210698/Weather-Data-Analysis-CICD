@@ -22,7 +22,7 @@ dag = DAG('openweather_api_dag', default_args=default_args, schedule_interval="@
 #api_endpoint = "https://api.openweathermap.org/data/2.5/weather"
 api_endpoint = "https://api.openweathermap.org/data/2.5/forecast"
 api_params = {
-        "q": "Hubballi ,India",
+        "q": "Toronto,Canada",
         "appid": Variable.get("api_key")
     }
 
